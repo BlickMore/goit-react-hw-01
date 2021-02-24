@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.profile{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #e7ecf2;
+    height: 380px;
+    margin: 0 auto;
+    padding: 100px;
+    position: relative;
+}
+
+.description{
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px 0px rgba(191, 205, 222, 0.75);
+    width: 250px;
+    height: 330px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.avatar{
+    margin: 0 auto;
+    display: block;
+    border: none;
+        width: 128px;
+        height: 128px;
+            border-radius: 50%;
+            background-color: rgb(0, 0, 0);
+            box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);     
+}
+
+.name{
+    color: #122236;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    margin-bottom: 14px;
+}
+  
+.tag, .location{
+    padding: 0;
+    margin: 0;
+    color: #768696;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.stats{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+        border-top: 1px solid rgb(228, 233, 240);
+        background-color: #f3f6f9;
+        position: absolute;
+        left: 100px;
+        top: 410px;
+        width: 310px;
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+}
+
+.quantity{
+    display: block;
+}
+
+
+
+.label{
+    padding: 0;
+    font-size: 12px;
+    color: #768696;
+}
+
+.quantity{
+    margin: 0;
+    padding: 0;
+    color: #1f3349;
+    font-size: 14px;
+    font-weight: bold;
+}
